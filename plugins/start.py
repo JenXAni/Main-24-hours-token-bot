@@ -23,6 +23,9 @@ from pyrogram.enums import ParseMode
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 
+import pyrogram.utils
+pyrogram.utils.MIN_CHANNEL_ID = -1002192929445
+
 from helper_func import decode, get_messages, subsall, subsch, subsgc
 from helper import b64_to_str, str_to_b64, get_current_time, shorten_url
 
