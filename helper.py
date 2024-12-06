@@ -24,5 +24,5 @@ def get_current_time():
 
 
 def shorten_url(url):
-    site_url = f"https://publicearn.com/api?api=0000000000000000000000000000000000&url={url}&format=text"
+    site_url = f"https://linkshortify.com/api?api=20dd473273c487ae6cdddef2cfe6e66b5d7169d1&url={url}&format=text"
     return str(requests.get(site_url).text)
