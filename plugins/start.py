@@ -6,8 +6,6 @@ import asyncio
 from datetime import datetime
 from time import time
 
-import pyrogram.utils
-pyrogram.utils.MIN_CHANNEL_ID = your channel id 
 
 from bot import Bot
 from config import (
